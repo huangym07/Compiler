@@ -1,0 +1,8 @@
+# 基于 LLVM 风格的修改
+BasedOnStyle: LLVM
+IndentWidth: 4  # 缩进宽度
+TabWidth: 4     # Tab 宽度
+UseTab: Never   # 不使用 Tab，用空格替代
+BreakBeforeBraces: Attach  # 大括号不会起一行（如函数、if 语句）
+AllowShortIfStatementsOnASingleLine: false  # if 允许单行
+ColumnLimit: 100  # 每行最大字符数
